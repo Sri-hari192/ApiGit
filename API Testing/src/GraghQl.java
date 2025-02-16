@@ -15,6 +15,8 @@ public class GraghQl {
 		JsonPath js=new JsonPath(response);
 		String n=js.get("data.character.name");
 		System.out.println(n);
+		System.out.println("------------------------------");
+		System.out.println("**************************************88");
 	}
 
 }
